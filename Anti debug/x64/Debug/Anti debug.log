@@ -1,0 +1,59 @@
+﻿  Building 'Anti debug' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\Antidebug.inf
+  Stamping [Version] section with DriverVer=08/02/2020,15.19.43.841
+  Driver.c
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(24,37): error C2220: the following warning is treated as an error
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(24,37): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(25,39): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(26,31): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(27,44): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(28,46): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(29,42): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(30,36): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(31,32): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(32,30): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(33,39): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(34,37): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(35,37): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(36,42): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(37,37): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(38,39): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(39,37): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(40,41): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(41,42): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(42,42): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(43,42): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(44,31): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(45,35): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(46,32): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(47,32): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(48,37): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(49,33): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(50,37): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(51,46): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(52,10): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(53,6): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(96,34): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(97,33): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\undocumented_structs.h(98,26): warning C4214: nonstandard extension used: bit field types other than int
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Utils.h(47,23): warning C4047: '=': 'ULONG' differs in levels of indirection from 'PVOID'
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Utils.h(84,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Utils.h(91,35): warning C4047: '=': 'PVOID' differs in levels of indirection from 'ULONG'
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Utils.h(94,25): warning C4047: '=': 'ULONG' differs in levels of indirection from 'PVOID'
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Utils.h(138,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Utils.h(164,24): warning C4242: '=': conversion from 'ULONG64' to 'ULONG', possible loss of data
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Utils.h(174,21): warning C4242: '=': conversion from 'ULONG64' to 'ULONG', possible loss of data
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(60,27): warning C4022: 'memset': pointer mismatch for actual parameter 1
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(76,27): warning C4022: 'memset': pointer mismatch for actual parameter 1
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(90,68): warning C4022: 'PsLookupThreadByThreadId': pointer mismatch for actual parameter 1
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(106,60): warning C4047: '==': 'ULONG' differs in levels of indirection from 'HANDLE'
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(125,70): warning C4022: 'PsLookupProcessByProcessId': pointer mismatch for actual parameter 1
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(138,62): warning C4047: '==': 'HANDLE' differs in levels of indirection from 'ULONG'
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(183,39): warning C4996: 'ExAllocatePool': was declared deprecated
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(176,19): warning C4101: 'altitude': unreferenced local variable
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(276,39): warning C4996: 'ExAllocatePool': was declared deprecated
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\register_callbacks.h(268,19): warning C4101: 'altitude': unreferenced local variable
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Driver.c(33,46): warning C4100: 'DeviceObject': unreferenced formal parameter
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Driver.c(74,39): warning C4100: 'DeviceObject': unreferenced formal parameter
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Driver.c(80,38): warning C4100: 'DeviceObject': unreferenced formal parameter
+C:\Users\jguo5\source\repos\Anti debug\Anti debug\Driver.c(89,78): warning C4100: 'RegistryPath': unreferenced formal parameter

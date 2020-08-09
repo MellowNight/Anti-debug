@@ -1,0 +1,90 @@
+;
+; Antidebug.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Sample ; TODO: edit Class
+ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
+Provider=%ManufacturerName%
+CatalogFile=Antidebug.cat
+DriverVer = 08/01/2020,13.7.40.880
+PnpLockDown=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+Antidebug_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+[ClassInstall32]
+Addreg=SampleClassReg
+
+[SampleClassReg]
+HKR,,,0,%ClassName%
+HKR,,Icon,,-5
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+Antidebug.sys  = 1,,
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTARM
+
+[Standard.NTARM]
+%Antidebug.DeviceDesc%=Antidebug_Device, Root\Antidebug ; TODO: edit hw-id
+
+[Antidebug_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+Antidebug.sys
+
+;-------------- Service installation
+[Antidebug_Device.NT.Services]
+AddService = Antidebug,%SPSVCINST_ASSOCSERVICE%, Antidebug_Service_Inst
+
+; -------------- Antidebug driver install sections
+[Antidebug_Service_Inst]
+DisplayName    = %Antidebug.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\Antidebug.sys
+
+;
+;--- Antidebug_Device Coinstaller installation ------
+;
+
+[Antidebug_Device.NT.CoInstallers]
+AddReg=Antidebug_Device_CoInstaller_AddReg
+CopyFiles=Antidebug_Device_CoInstaller_CopyFiles
+
+[Antidebug_Device_CoInstaller_AddReg]
+;
+
+
+[Antidebug_Device_CoInstaller_CopyFiles]
+;
+
+
+[Antidebug_Device.NT.Wdf]
+KmdfService =  Antidebug, Antidebug_wdfsect
+[Antidebug_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+ClassName="Samples" ; TODO: edit ClassName
+DiskName = "Antidebug Installation Disk"
+Antidebug.DeviceDesc = "Antidebug Device"
+Antidebug.SVCDESC = "Antidebug Service"
